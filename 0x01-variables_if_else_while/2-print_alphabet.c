@@ -1,13 +1,11 @@
 #include <stdio.h>
-
 /**
  * man - Prints the alphabet.
- * 
  * Return: Always 0 (Success)
  */
 int main(void)
 {
-    char alp[26] = "abcdefjjigklmnopqrstuvwxyz";
+    char alp[26] = "abcdefjhigklmnopqrstuvwxyz";
     int i;
 
     for (i = 0; i < 26; i++)
