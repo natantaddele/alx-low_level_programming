@@ -12,7 +12,6 @@ int main(void)
 	_putchar('u');
 _putchar('t');
 _putchar('c');
-_putchar('_');
 _putchar('h');
 _putchar('a');
 _putchar('r');
