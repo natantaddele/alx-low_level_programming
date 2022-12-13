@@ -5,7 +5,7 @@
  * @n:The int to print
  * Return: Always 1.
  */
-int abs(int n)
+int _abs(int n)
 {
 
 if (n < 0)
