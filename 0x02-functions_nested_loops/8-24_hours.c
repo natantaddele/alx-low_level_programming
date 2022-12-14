@@ -1,14 +1,11 @@
 #include "main.h"
 
 /**
- * Jach_Bauer - prints every minute of the day.
- * 
+ * Jach_Bauer - prints every minute of the day. 
  * Return: Always 0.
  */
 void jach_bauer(void)
-
 {
-
 int a;
 int b;
 
@@ -22,7 +19,6 @@ _putchar (':');
 _putchar (b / 10 + '0');
 _putchar (b % 10 + '0');
 _putchar ('\n');
-
 }
 }
 }
