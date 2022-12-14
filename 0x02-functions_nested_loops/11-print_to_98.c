@@ -19,5 +19,5 @@ printf("%i, ", n);
 n--;
 }
 printf("98");
-_putchar('\');
+putchar('\n');
 }
