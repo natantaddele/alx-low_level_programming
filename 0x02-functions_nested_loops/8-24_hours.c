@@ -1,4 +1,4 @@
-#include "main.h"
+#include "main_0.c"
 
 /**
  * Jach_Bauer - prints every minute of the day. 
