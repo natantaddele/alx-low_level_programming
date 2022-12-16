@@ -9,31 +9,31 @@
  */
 int main()
 {
-    int result = 0;
+int result = 0;
 
-    result = largest_number(3, 5, 8);
+result = largest_number(3, 5, 8);
 
-    printf("Result = %d", result);
+printf("Result = %d", result);
 
-    return(0);
+return(0);
 }
 
 int largest_number(int a, int b, int c)
 {
-    int largest;
+int largest;
 
-    if (a > b && b > c)
-    {
-        largest = a;
-    }
-    else if (b > a && a > c)
-    {
-        largest = b;
-    }
-    else
-    {
-        largest = c;
-    }
+if (a > b && b > c)
+{
+    largest = a;
+}
+else if (b > a && a > c)
+{
+    largest = b;
+}
+else
+{
+    largest = c;
+}
 
-    return (largest);
+return (largest);
 }
