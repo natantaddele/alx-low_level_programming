@@ -7,16 +7,6 @@
  * @c: third integer
  * Return: largest number
  */
-int main()
-{
-int result = 0;
-
-result = largest_number(3, 5, 8);
-
-printf("Result = %d", result);
-
-return(0);
-}
 
 int largest_number(int a, int b, int c)
 {
