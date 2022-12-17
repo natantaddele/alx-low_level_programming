@@ -3,7 +3,6 @@
 /**
 * _ispper - check if a letter is upper
 * @c: The number to be checked
-*
 * Return: 0 or 1
 */
 
