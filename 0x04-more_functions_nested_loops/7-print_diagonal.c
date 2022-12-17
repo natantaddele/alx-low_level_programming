@@ -6,7 +6,7 @@
 *@:numbers of '\' to be printed
 */
 
-void print_diagonal(int n)
+void print_diagonal(int)
 {
 int x, y;
 
