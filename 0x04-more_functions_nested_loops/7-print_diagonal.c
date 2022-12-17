@@ -1,7 +1,8 @@
 #include "main.h"
 
 /**
-*print_diagonal - draw a diagoonal line 
+*print_diagonal - draw a diagoonal line
+*
 *@:numbers of '\' to be printed
 */
 
