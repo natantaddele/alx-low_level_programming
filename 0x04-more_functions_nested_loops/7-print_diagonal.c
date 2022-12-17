@@ -1,8 +1,9 @@
 #include "main.h"
+
 /**
- *print_diagonal - draw a diagoonal line 
- *@:numbers of '\' to be printed
- */
+* print_diagonal - draw a diagoonal line 
+* @:numbers of '\' to be printed
+*/
 
 void print_diagonal(int n)
 {
