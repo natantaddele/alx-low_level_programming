@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_ine - prints a straight line using '_'
+ * print_line - prints a straight line using '_'
  * @n: the nmber of '_' to be printed
  */
 
@@ -11,7 +11,7 @@ int len;
 
 if (n > 0)
 {
-for (len = 0; len < n; len++);
+for (len = 0; len < n; len++)
 _putchar('_');
 }
 _putchar('\n');
