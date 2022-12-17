@@ -1,13 +1,14 @@
 #include "main.h"
 
 /**
-*print_diagonal - draw a diagoonal line
+* print_diagonal - draw a diagoonal line
 *
-*@:numbers of '\' to be printed
+* @n: numbers of '\' to be printed
 */
 
-void print_diagonal(int)
+void print_diagonal(int n)
 {
+
 int x, y;
 
 if (n <= 0)
