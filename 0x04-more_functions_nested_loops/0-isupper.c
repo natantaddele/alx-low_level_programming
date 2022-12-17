@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
-* _ispper - check if a letter is upper
+* _isupper - check if a letter is upper
 * @c: The number to be checked
 * Return: 0 or 1
 */
-
 int _isupper(int c)
 {
 if (c >= 'A' && c <= 'Z')
