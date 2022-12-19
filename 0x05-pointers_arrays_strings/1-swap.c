@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * swap - check the code
+ * swap_int - check the code
  * @a: value 1
  * @b: value 2
  * Return: Always 0.
