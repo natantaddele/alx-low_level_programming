@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * _puts - writea unction that prints a string
+ *_puts - write function that prints a string
  *
- *@str: this is my input string 
+ * @str: this is my input string 
  */
 
 void _puts(char *str)
