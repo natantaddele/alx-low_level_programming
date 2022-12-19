@@ -2,7 +2,9 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * reset_to_98 - check the code
+ *
+ * @n: int parameter
  *
  * Return: Always 0.
  */
