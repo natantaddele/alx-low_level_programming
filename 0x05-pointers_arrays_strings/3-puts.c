@@ -2,9 +2,7 @@
 
 /**
  * _puts - writea unction that prints a string
- *
  * @str: this is my input string 
- *
  */
 
 void _puts(char *str)
