@@ -1,7 +1,9 @@
 #ifndef MAIN_H                                                 
 #define MAIN_H                                                 
                                                                
-#include <stdio.h>                                             
+#include <stdio.h>
+
+int_srlen(char *s);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
