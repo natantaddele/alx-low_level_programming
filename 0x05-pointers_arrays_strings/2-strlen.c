@@ -1,4 +1,4 @@
-#include "mian.h"
+#include "main.h"
 
 /**
  * _strlen - Function that returns the length
@@ -7,7 +7,7 @@
  *
  * Return: Length of the string 
  */
-int strlen(char *s)
+int _strlen(char *s)
 int index;
 
 for (index = 0; s[index] != '0' ; index++)

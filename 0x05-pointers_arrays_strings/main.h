@@ -3,7 +3,7 @@
                                                                
 #include <stdio.h>
 
-int_srlen(char *s);
+int _srlen(char *s);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
