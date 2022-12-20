@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * [puts2 - [romts a stromg, foolowed by a new line,
- * @str: pinter to the string to print
+ * [puts2 - prints a string, folowed by a new line,
+ * @str: pointer to the string to print
  * Return: void
  */
 
