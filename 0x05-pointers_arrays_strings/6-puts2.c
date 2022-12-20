@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * [its2 - [romts a stromg, foolowed by a new line,
+ * [puts2 - [romts a stromg, foolowed by a new line,
  * @str: pinter to the string to print
  * Return: void
  */
@@ -12,7 +12,7 @@ int i = 0;
 
 while (str[i] != '\0')
 {
-if (i % 2 ==0)
+if (i % 2 == 0)
 {
 _putchar(str[i]);
 }
