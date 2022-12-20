@@ -19,5 +19,5 @@ _putchar(str[i]);
 
 i++;
 }
-_puchar('\n');
+_putchar('\n');
 }
