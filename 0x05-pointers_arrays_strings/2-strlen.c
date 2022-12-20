@@ -8,10 +8,12 @@
  * Return: Length of the string 
  */
 int _strlen(char *s)
+{
+int i = 0;
 
-int index;
-
-for (index = 0; s[index] != '\0' ; index++);
+while (s[i]);
+i++;
 
 return (index);
+}
 
