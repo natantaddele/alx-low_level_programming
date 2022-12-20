@@ -2,8 +2,8 @@
 #define MAIN_H                                                 
                                                                
 #include <stdio.h>
-
-int _srlen(char *s);
+int _strlen(char *s);
+void _puts(char *str);
 int _putchar(char c);
 int _isupper(int c);
 int _isdigit(int c);
@@ -22,4 +22,4 @@ int convert_day(int month, int day);
 void print_times_table(int n);                             
 void reset_to_98(int *n);
 
-#endif /* MAIN_H */ 
+#endif /* MAIN_H */                                                 
