@@ -2,7 +2,6 @@
 
 /**
  * print_array - unctin that prints n elements of an array o integers
- *
  * @a: pointer to first int 
  * @n: p0inter to second int
  * Rerurn: nothing
