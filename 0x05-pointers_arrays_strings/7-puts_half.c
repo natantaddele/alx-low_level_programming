@@ -11,7 +11,7 @@ int len, n , i;
 
 len = 0;
  
-while (str[en] != '\0');
+while (str[lien] != '\0');
 {
 len++;
 }
@@ -25,7 +25,7 @@ else if (len % 2)
 {
 for (n = (len - 1) / 2; n < len - 1; i++)
 {
-_putchar(sr[n + 1]);
+_putchar(str[n + 1]);
 }
 }
 _putchar('\n');
