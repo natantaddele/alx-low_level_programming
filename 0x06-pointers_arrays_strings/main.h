@@ -24,5 +24,6 @@ void reset_to_98(int *n);
 char *_strcat(char *str1, char *str2);
 char *_strncat(char *dest, char *src, int n);
 char *_strncpy(char *dest, char *src, int n);
+int _strcmp(char *s1, char *s2);
 
 #endif /* MAIN_H */
