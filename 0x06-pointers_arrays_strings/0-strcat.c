@@ -10,7 +10,10 @@
  */
 
 
-char *str1[100], *str2[100], *str3[100];
+char *_strcat(char *str1[100], const char *str2[100])
+{
+
+char str3[100];
 
 int i = 0, j = 0;
 
@@ -29,3 +32,4 @@ j++;
 str3[j] = '\0';
 _putchar("\nConcatenated string: %s", str3);
 return (0);
+}
