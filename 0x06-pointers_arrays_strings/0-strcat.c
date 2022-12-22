@@ -10,7 +10,7 @@
  */
 
 
-char str3[100], str2[100], str3[100];
+char *str3[100], *str2[100], *str3[100];
 
 int i = 0, j = 0;
 
