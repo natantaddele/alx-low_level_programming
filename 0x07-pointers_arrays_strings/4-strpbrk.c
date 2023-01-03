@@ -1,13 +1,18 @@
+
+/*
+ * File: 4-strpbrk.c
+ * Auth:jojo 
+ */
+
 #include "main.h"
 
 /**
- * _strpbrk - Searches a string for any of a set of bytes
- *
- * @s: The string to be searced.
+ * _strpbrk - Searches a string for any of a set of bytes.
+ * @s: The string to be searched.
  * @accept: The set of bytes to be searched for.
  *
- * Return: if a set is matched - a pointer to he mathed byte.
- * if no set is matched - NULL
+ * Return: If a set is matched - a pointer to the matched byte.
+ * If no set is matched - NULL.
  */
 char *_strpbrk(char *s, char *accept)
 {
@@ -15,11 +20,12 @@ int index;
 
 while (*s)
 {
-for (inde = 0; accept[index]; index++)
+for (index = 0; accept[index]; index++)
 {
 if (*s == accept[index])
 return (s);
 }
+
 s++;
 }
 
