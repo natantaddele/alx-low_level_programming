@@ -1,7 +1,8 @@
 /*
  * File: 4-strpbrk.c
  *
- * Auth: jojo 
+ * Auth: jojo
+ *
  */
 
 #include "main.h"
