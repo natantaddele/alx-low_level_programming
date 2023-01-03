@@ -1,4 +1,6 @@
-#include "main.h" 
+#include "main.h"
+
+
 /**
 * *_memcpy - copies memory area from sr to dest
 * @dest: destination
