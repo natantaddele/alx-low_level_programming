@@ -24,4 +24,5 @@ void reset_to_98(int *n);
 char *_strcat(char *dest, char *src);
 char *_memset(char *s, char b, unsigned int n);
 void _puts_recursion(char *s);
+void _print_rev_recursion(char *s);
 #endif /* MAIN_H */    
