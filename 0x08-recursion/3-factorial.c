@@ -1,7 +1,9 @@
 #include <stdio.h>
 
 /**
- * Function Factorial - Print given No. of factorial. 
+ * function factorial - Print given No. of factorial.
+ *
+ *
  * @n: Input Variable.
  *
  * Return: Always 0.
