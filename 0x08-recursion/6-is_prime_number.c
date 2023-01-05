@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * is_prime_number - Print prime number.
@@ -12,16 +12,25 @@ int i;
 
 if (n <= 1)
 {
-return 0;
+return (0);
 }
-i = 2;
-while (i < n)
+if (n <= 3)
 {
-if (n % i == 0)
+return (1);
+}
+
+if (n % 2 == 0 || n % 3 == 0)
 {
-return 0;
+return (0);
 }
-i++;
+
+for (i = 5; i * i <= n; i += 6)
+{
+if (n % i == 0 || n % (i + 2) == 0)
+{
+return (0);
 }
-return 1;
+}
+
+return (1);
 }
