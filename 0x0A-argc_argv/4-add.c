@@ -1,4 +1,4 @@
-#include "main.h"
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <ctype.h>
@@ -10,23 +10,28 @@
  *
  * Return: Always 0 (Success)
  */
-
-int check_num(char *str)
-
+int main(int argc, char *argv[])
 {
-/*Declaring variables*/
-unsigned int count;
-
-count = 0;
-while (count < strlen(str)) /*count string*/
-
+if (argc < 2)
 {
-if (!isdigit(str[count])) /*check if str there are digit*/
-{
-return (0);
+printf("0\n");
+return 0;
 }
 
-count++;
+for (int i = 1; i < argc; i++)
+{
+for (int j = 0; argv[i][j] != '\0'; j++)
+{
+if (!isdigit(argv[i][j]))
+{
+printf("Error\n");
+return 1;
 }
-return (1);
+}
+result += atoi(argv[i]);
+}
+
+printf("%d\n", result);
+
+return 0;
 }
