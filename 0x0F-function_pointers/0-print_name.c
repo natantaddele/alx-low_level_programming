@@ -4,7 +4,8 @@
 /**
  * print_name - prints a name as is
  *
- * @f: name of the person
+ * @name: name of the person
+ * @f: is function
  *
  * Return: Nothing.
  */
