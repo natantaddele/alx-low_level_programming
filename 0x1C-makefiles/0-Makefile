@@ -1,0 +1,15 @@
+# Makefile
+
+# Executable name
+EXECUTABLE = school
+
+# Default rule
+all: $(EXECUTABLE)
+
+# Compile and build the executable
+$(EXECUTABLE): main.c
+    gcc -o $@ $^
+
+# Clean the generated files
+clean:
+    rm -f $(EXECUTABLE)
