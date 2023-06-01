@@ -1,15 +1,16 @@
-# Makefile
+CC = gcc
+CFLAGS = -std=c99 -Wall
 
-# Executable name
-EXECUTABLE = school
+all: school
 
-# Default rule
-all: $(EXECUTABLE)
+school: main.o utils.o
+    $(CC) $(CFLAGS) -o $@ $^
 
-# Compile and build the executable
-$(EXECUTABLE): main.c
-    gcc -o $@ $^
+main.o: main.c
+    $(CC) $(CFLAGS) -c $<
 
-# Clean the generated files
+utils.o: utils.c
+    $(CC) $(CFLAGS) -c $<
+
 clean:
-    rm -f $(EXECUTABLE)
+    rm -f school *.o
